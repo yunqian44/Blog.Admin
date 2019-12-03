@@ -54,7 +54,7 @@
                 loginingMock: false,
                 ruleForm2: {
                     account: 'admin',
-                    checkPass: '123'
+                    checkPass: '123456'
                 },
                 //account3: '测试账号1',
                 rules2: {
@@ -106,7 +106,6 @@
                                     type: 'error'
                                 });
                             } else {
-
                                 _this.$message({
                                     message: "测试mock，请在main.js 中开启服务!",
                                     type: 'error'
